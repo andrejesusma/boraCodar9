@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="index.css" rel="stylesheet" type="text/css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="conversor flex col space-b w-100">
+            <h2 class="w-100">Conversor de moedas</h2>
+            <div class="moedas flex space-b w-100">
+                <div class="cambio flex">
+                    <input type="text" placeholder="$ 1.000,00">
+                    <div class="dropdown">
+                        
+                        <button class="dropbtn flex space-b">
+                          <img src="https://http2.mlstatic.com/D_NQ_NP_217321-MLB20767925965_062016-O.jpg" alt="">usd<i class="material-icons">keyboard_arrow_down</i>
+                      </button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a class="flex" href="#usd">
+                              <img src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeira-nacional-brasil.jpg" alt="">
+                              <p>brl</p>
+                            </a>
+                            <a class="flex" href="#eur">
+                                <img src="https://img.freepik.com/fotos-premium/bandeira-da-uniao-europeia-ue_469558-1780.jpg" alt="">
+                                <p>eur</p>
+                            </a>
+                            <a class="flex" href="#gbp">
+                                <img src="https://st.depositphotos.com/1141341/2558/i/450/depositphotos_25587499-stock-photo-flag-of-uk.jpg" alt="">
+                                <p>gbp</p>
+                            </a>
+                            <a class="flex" href="#cad">
+                                <img src="https://s5.static.brasilescola.uol.com.br/be/2021/04/bandeira-do-canada.jpg" alt="">
+                                <p>cad</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <i class="material-icons swap">swap_horiz</i>
+                <div class="cambio flex">
+                    <input type="text" placeholder="R$ 5.148,20">
+                    <div class="dropdown">
+                      <button class="dropbtn flex space-b">
+                        <img src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeira-nacional-brasil.jpg" alt="">
+                        brl
+                        <i class="material-icons">keyboard_arrow_down</i>
+                    </button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a class="flex" href="#usd">
+                            <img src="https://http2.mlstatic.com/D_NQ_NP_217321-MLB20767925965_062016-O.jpg" alt="">
+                            <p>usd</p>
+                        </a>
+                            <a class="flex" href="#eur">
+                                <img src="https://img.freepik.com/fotos-premium/bandeira-da-uniao-europeia-ue_469558-1780.jpg" alt="">
+                                <p>eur</p>
+                            </a>
+                            <a class="flex" href="#gbp">
+                                <img src="https://st.depositphotos.com/1141341/2558/i/450/depositphotos_25587499-stock-photo-flag-of-uk.jpg" alt="">
+                                <p>gbp</p>
+                            </a>
+                            <a class="flex" href="#cad">
+                                <img src="https://s5.static.brasilescola.uol.com.br/be/2021/04/bandeira-do-canada.jpg" alt="">
+                                <p>cad</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="taxa w-100 flex col">
+            <h2 class="w-100">Taxa de câmbio</h2>
+            <div class="chart w-100">
+                <div class="grade">
+                    <p>5,3</p>
+                    <p>5,2</p>
+                    <p>5,1</p>
+                    <p>5,0</p>
+                    <p></p>
+                </div>
+                <img src="assets/Chart.png" alt="">
+                <div class="values">
+                    <p></p>
+                    <p>1D</p>
+                    <p>5D</p>
+                    <p>1M</p>
+                    <p>1A</p>
+                    <p>5A</p>
+                    <p>Máx</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
